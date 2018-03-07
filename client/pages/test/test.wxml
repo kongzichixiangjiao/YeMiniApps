@@ -1,0 +1,24 @@
+<view>
+  <view class='my-view' hover-class='view-hover' hover-stop-propagation='false' hover-start-time='50' hover-stay-time='400'>
+  </view>
+
+  <view class='flex-wrp'>
+    <view class='flex-wrp-item'>1</view>
+    <view class='flex-wrp-item'>2</view>
+    <view class='flex-wrp-item'>3</view>
+  </view>
+  
+  <view class='scroll'>
+    <scroll-view class='my-scrollView' style='height: 200px; white-space: nowrap; display: flex' scroll-x = "true">
+      <view style="background: blue; width: 200px; height: 100px; display: inline-block" ></view>
+      <view style="background: yellow; width: 200px; height: 100px; display: inline-block" ></view>
+      <view style="background: red; width: 200px; height: 100px; display: inline-block" ></view>
+    </scroll-view>
+  </view>
+  <view class='flex-wrp'>
+    <view class='flex-wrp-item'>1</view>
+    <view class='flex-wrp-item'>2</view>
+    <view class='flex-wrp-item'>3</view>
+  </view>
+</view>
+

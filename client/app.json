@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/addCgi/addCgi",
+    "pages/test/test",
+    "pages/list/list",
+    "pages/tab/one/one",
+    "pages/tab/two/two"
+  ],
+  "window":{
+    "backgroundColor":"#F6F6F6",
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "Wafer Quick Start",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "一",
+        "iconPath": "source/icon/one.png",
+        "selectedIconPath": "source/icon/one.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "二",
+        "iconPath": "source/icon/two.png",
+        "selectedIconPath": "source/icon/two.png"
+      }
+    ],
+    "backgroundColor": "#999999",
+    "borderStyle": "black"
+  }
+}
